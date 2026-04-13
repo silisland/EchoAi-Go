@@ -1,0 +1,9 @@
+skills:
+  - name: minimax-docx
+    source: local
+  - name: minimax-pdf
+    source: local
+  - name: xlsx
+    source: local
+  - name: obsidian-markdown
+    source: local
