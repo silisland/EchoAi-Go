@@ -1,0 +1,82 @@
+# Project-specific ignores
+echoAI/
+
+# Build directories
+build/
+bin/
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Dependencies
+node_modules/
+
+# Assets - Hardware files (large binaries)
+assets/*.mp4
+assets/*.rar
+assets/*.zip
+assets/*.7z
+assets/*.pdf
+assets/*.xlsx
+assets/*.xls
+assets/*.doc
+assets/*.docx
+assets/*:Zone.Identifier
+
+# Keep markdown documentation in assets
+!assets/*.md
+
+# Submodule build artifacts (if initialized)
+DeskBot_demo/build/
+AIChat_demo/build/
+yolov5_demo/build/
+rkmpi_demos/build/
+
+# Model files (large binaries)
+*.rknn
+*.onnx
+*.pth
+*.pt
+*.h5
+*.pb
+*.tflite
+*.mlmodel
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# Config files with sensitive data
+system_para.conf
+token.conf
+api_key.conf
+*.key
+*.secret

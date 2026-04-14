@@ -19,13 +19,35 @@ Embedded AI hardware project combining voice interaction, object detection, and 
 
 ```
 echoAI/
-├── deepwiki/              # Technical documentation from DeepWiki
-│   ├── Overview.md        # Project overview and architecture
-│   ├── Getting-Started.md # Build and setup instructions
-│   ├── Server-Architecture.md    # Python server design
-│   ├── Communication-Protocol.md  # WebSocket protocol specs
-│   ├── Configuration-Reference.md
-│   ├── External-Dependencies-and-Submodules.md
+├── deepwiki/ # Technical documentation from DeepWiki
+│ ├── Overview.md # Project overview and architecture
+│ ├── Getting-Started.md # Build and setup instructions
+│ ├── Server-Architecture.md # Python server design
+│ ├── Communication-Protocol.md # WebSocket protocol specs
+│ ├── Configuration-Reference.md
+│ ├── External-Dependencies-and-Submodules.md
+│ ├── DeskBot-Demo---AI-Desktop-Assistant.md
+│ ├── AIChat-Demo---Voice-Assistant.md
+│ ├── YOLOv5-Demo---Object-Detection.md
+│ └── Object-Detection-Integration.md
+├── assets/ # Hardware docs & mechanical files (git-ignored binaries)
+│ ├── 元器件清单.md # BOM component list
+│ ├── Echo配件表.pdf # Mechanical parts list
+│ ├── AMap_adcode_citycode.xlsx # Location codes
+│ └── Rockchip参考文档.rar # Chip datasheets
+├── AGENTS.md # This file
+└── [Project proposal docs]
+
+**Note**: `assets/` contains hardware BOM, schematics, and mechanical drawings.
+Binary files (PDF, XLSX, RAR, MP4) are git-ignored but documented in `元器件清单.md`.
+├── myGo/ # Personal learning and development
+│ ├── Plan/ # Learning plans and analysis documents
+│ │ ├── Echo-Mate-技术栈学习计划.md # Complete tech stack learning plan
+│ │ └── WSL2开发环境搭建与无硬件学习指南.md # WSL2 setup & no-hardware guide
+│ └── code/ # Personal code experiments
+├── AGENTS.md # This file
+└── [Project proposal docs]
+```
 │   ├── DeskBot-Demo---AI-Desktop-Assistant.md
 │   ├── AIChat-Demo---Voice-Assistant.md
 │   ├── YOLOv5-Demo---Object-Detection.md
@@ -174,6 +196,22 @@ cmake .. && make
 # Run simulator
 ../bin/main
 ```
+
+## REPOSITORY STATUS
+
+**Current State**: Documentation archive only. Source code submodules not initialized.
+
+| Component | Status | Location |
+|-----------|--------|----------|
+| Documentation | Present | `deepwiki/` |
+| DeskBot_demo | Missing | Git submodule |
+| AIChat_demo | Missing | Git submodule |
+| yolov5_demo | Missing | Git submodule |
+| rkmpi_demos | Missing | Git submodule |
+
+## ADDITIONAL AGENTS.md
+
+- `deepwiki/AGENTS.md` - DeepWiki documentation domain
 
 ## REFERENCES
 
