@@ -1,9 +1,12 @@
 # Echo-Mate AI Desktop Robot - Project Knowledge Base
 
-**Project**: Echo-Mate AI Desktop Robot  
-**Platform**: RV1106 (Cortex A7 + 1TOPS NPU)  
-**Framework**: LVGL v9.2 + CMake + Buildroot Linux  
+**Project**: Echo-Mate AI Desktop Robot
+**Current Platform**: RK3562 (Cortex A53 x4 + 1TOPS NPU)
+**Reference Platform**: RV1106 (Cortex A7 + 0.5TOPS NPU)
+**Framework**: LVGL v9.2 + CMake + Buildroot Linux
 **Team**: 4-person startup competition entry
+
+**Platform Status**: Currently learning on RK3562 (more powerful), preparing for future RV1106v3 target
 
 ## OVERVIEW
 
@@ -58,6 +61,8 @@ Binary files (PDF, XLSX, RAR, MP4) are git-ignored but documented in `元器件�
 
 ## WHERE TO LOOK
 
+### Technical Documentation
+
 | Task | Location | Notes |
 |------|----------|-------|
 | Quick project intro | `deepwiki/Overview.md` | High-level architecture |
@@ -70,6 +75,15 @@ Binary files (PDF, XLSX, RAR, MP4) are git-ignored but documented in `元器件�
 | Voice assistant | `deepwiki/AIChat-Demo---Voice-Assistant.md` | Client-server voice AI |
 | Object detection | `deepwiki/YOLOv5-Demo---Object-Detection.md` | YOLOv5 + RKNN |
 | YOLO integration | `deepwiki/Object-Detection-Integration.md` | C interface layer |
+
+### Learning Plans
+
+| Task | Location | Notes |
+|------|----------|-------|
+| Complete tech stack | `myGo/Plan/Echo-Mate-技术栈学习计划.md` | 8 categories, 16 weeks |
+| WSL2 no-hardware guide | `myGo/Plan/WSL2开发环境搭建与无硬件学习指南.md` | 65-75% completion realistic |
+| **RK3562 learning roadmap** | `myGo/Plan/Echo-Mate-RK3562-学习路线.md` | 6 phases, 12-16 weeks |
+| RK3562 migration guide | `myGo/Plan/rk3562/RK3562-迁移与学习指南.md` | RV1106 → RK3562 migration |
 
 ## TECHNOLOGY STACK
 
